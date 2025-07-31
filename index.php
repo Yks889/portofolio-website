@@ -26,7 +26,7 @@
     <header class="navbar position-relative w-100">
         <div class="container-fluid navbar-expand-lg">
             <a href="#about" class="navbar-brand text-light fs-3 mx-5">
-                <img src="/img/logo.png" alt="Logo" style="width: 150px; height: 55px; object-fit: cover;" class="g-4 mx-5">
+                <img src="/img/logo1.png" alt="Logo" style="width: 150px; height: 55px; object-fit: cover;" class="g-4 mx-5">
                 <i class="bi bi-x-lg me-3"></i>
                 <span class="fs-3 ">Portofolio</span>
                 <span class="mx-2 text-secondary">|</span>

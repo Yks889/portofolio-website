@@ -8,4 +8,5 @@ services:
       - "8089:80"
     volumes:
       - .:/var/www/html
+      - img:/var/www/html/img
     
