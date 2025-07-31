@@ -9,58 +9,66 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous" defer></script>
     <title>Website Portofolio</title>
-    <link rel="icon" href="/img/logo.png" type="image/png">
+    <link rel="icon" href="/img/logo1.jpeg" type="image/png">
     <style>
         html {
             scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #1E1E1E;
         }
     </style>
 </head>
 
 <body>
     <!-- Navbar -->
-    <header class="navbar navbar-expand-lg position-relative w-100">
-        <div class="container-fluid">
-            <a href="#about" class="navbar-brand text-dark fs-3 ">
-                <img src="/img/logo.png" alt="Logo" style="width: 150px; height: 50px; object-fit: cover;">
+    <header class="navbar position-relative w-100">
+        <div class="container-fluid navbar-expand-lg">
+            <a href="#about" class="navbar-brand text-light fs-3 mx-5">
+                <img src="/img/logo.png" alt="Logo" style="width: 150px; height: 55px; object-fit: cover;" class="g-4 mx-5">
                 <i class="bi bi-x-lg me-3"></i>
                 <span class="fs-3 ">Portofolio</span>
                 <span class="mx-2 text-secondary">|</span>
                 <span class=" text-capitalize fs-4">Bootstrap 5 &amp; PHP</span>
             </a>
             <nav class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav ms-auto me-5 fs-5 gap-4">
+                <ul class="navbar-nav ms-auto me-auto fs-5 gap-4">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Beranda</a>
+                        <a class="nav-link active text-light" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link text-white" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portofolio">Portofolio</a>
+                        <a class="nav-link text-white" href="#services">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portofolio">Portofolio</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#contact">Kontak</a>
+                        <a class="nav-link text-white" href="#contact">Kontak</a>
                     </li>
                 </ul>
             </nav>
         </div>
-    </header>
 
-    <section id="home" class="home-section py-5">
-        <div class="container-fluid">
-            <div class="row text-dark">
-                <div class="col-md-5 d-flex flex-column justify-content-center align-items-start ms-auto">
-                    <h1 class="display-4 fw-bold text-dark text-capitalize fst-italic">front end development</h1>
-                    <p class="lead text-secondary">Saya seorang pengembang web yang bersemangat dengan pengalaman dalam berbagai teknologi web. Saya suka menciptakan solusi inovatif dan efisien untuk tantangan pengembangan web.</p>
-                    <a href="#about" class="btn btn-secondary btn-lg">Pelajari Lebih Lanjut</a>
-                </div>
-                <div class="col-md-6 d-flex justify-content-end align-items-center h-100 me-auto">
-                    <img src="/img/home.png" alt="Home Image" class="" style="width: 75%; height: auto; object-fit: cover;">
+
+        <section id="home" class="home-section py-5">
+            <div class="container-fluid">
+                <div class="row text-dark">
+                    <div class="col-md-5 d-flex flex-column justify-content-center align-items-start ms-auto">
+                        <h1 class="display-4 fw-bold text-dark text-capitalize fst-italic">front end development</h1>
+                        <p class="lead text-secondary">Saya seorang pengembang web yang bersemangat dengan pengalaman dalam berbagai teknologi web. Saya suka menciptakan solusi inovatif dan efisien untuk tantangan pengembangan web.</p>
+                        <a href="#about" class="btn btn-secondary btn-lg">Pelajari Lebih Lanjut</a>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-end align-items-center h-100 me-auto">
+                        <img src="/img/home.png" alt="Home Image" class="" style="width: 75%; height: auto; object-fit: cover;">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </header>
 
     <!-- About Section -->
     <section id="about" class="about-section py-5">
@@ -84,14 +92,65 @@
 
     </section>
 
+    <section id="services" class="services-section py-5">
+        <div class="container mt-5">
+            <div class="text-center mb-4">
+                <h2 class="display-5 fst-italic fw-medium">Layanan Saya</h2>
+                <p class="lead text-capitalize mt-2">Saya menawarkan berbagai layanan pengembangan web dan desain grafis untuk membantu bisnis Anda tumbuh secara online.
+                    saya memiliki keahlian dalam pengembangan web, desain grafis, dan optimasi SEO. Berikut adalah beberapa layanan yang saya tawarkan:
+                </p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/img/web-development.jpg" class="card-img-top" alt="Web Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Pengembangan Web</h5>
+                            <p class="card-text">Saya menawarkan layanan pengembangan web yang mencakup pembuatan situs web responsif, aplikasi web, dan sistem manajemen konten (CMS). Dengan pengalaman dalam HTML, CSS, JavaScript, dan PHP, saya dapat menciptakan solusi web yang sesuai dengan kebutuhan bisnis Anda.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#contact" class="text-capitalize"><i class="bi bi-chevron-right"></i>Hubungi Saya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/img/graphic-design.jpg" class="card-img-top" alt="Desain Grafis">
+                        <div class="card-body">
+                            <h5 class="card-title">Desain Grafis</h5>
+                            <p class="card-text">Saya juga menyediakan layanan desain grafis untuk menciptakan
+                                logo, poster, dan materi pemasaran lainnya. Dengan keterampilan dalam Adobe Photoshop dan Illustrator, saya dapat membantu merek Anda tampil menonjol dengan desain yang menarik dan profesional.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#contact" class="text-capitalize"><i class="bi bi-chevron-right"></i>Hubungi Saya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/img/seo.jpg" class="card-img-top" alt="Optimasi SEO">
+                        <div class="card-body">
+                            <h5 class="card-title">Optimasi SEO</h5>
+                            <p class="card-text">Saya juga menawarkan layanan optimasi SEO untuk meningkatkan visibilitas situs web Anda di mesin pencari. Dengan menerapkan teknik SEO on-page dan off-page, saya dapat membantu meningkatkan peringkat situs web Anda dan menarik lebih banyak pengunjung.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#contact" class="text-capitalize"><i class="bi bi-chevron-right"></i>Hubungi Saya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <!-- Portofolio Section -->
     <section id="portofolio" class="portofolio-section py-5">
         <div class="text-center mt-5">
             <h1 class="text-capitalize display-5 fst-italic fw-medium">- portofolio project saya-</h1>
         </div>
-        <div class="row row-cols-2 row-cols-md-5 g-4 d-flex justify-content-center h-50 w-100 p-3">
+        <div class="row row-cols-md-4 g-4 d-flex justify-content-center h-50 w-100 p-3">
             <div class="col">
-                <div class="card h-100 width-30">
+                <div class="card h-100 ">
                     <img src="/img/logo.png" class="card-img-top" alt="Logo">
                     <div class="card-body">
                         <h5 class="card-title text-capitalize">brand / perusahaan</h5>
